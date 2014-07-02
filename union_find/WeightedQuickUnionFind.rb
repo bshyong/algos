@@ -20,5 +20,23 @@ class WeightedQuickUnionFind
     end
   end
 
+  # finds the root node for N:
+  # while a node is not a root node
+  # go up the tree until n is a root node,
+  # i.e. its root is itself, then return n
+  def find(n)
+    while n != roots[n]
+      n = roots[n]
+    n
+  end
+
+  def connected(x, y)
+
+  end
+
+  def union(x, y)
+
+  end
+
 end
 
