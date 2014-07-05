@@ -9,7 +9,7 @@
 
 def solution(coins, sum)
   sums = Hash.new
-  sums[0]= 0
+  sums[0] = 0
 
   (1..sum).each do |s|
     counts = Array.new
